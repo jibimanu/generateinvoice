@@ -1,0 +1,98 @@
+body{
+	margin:0;
+}
+.homepage{
+	background-image:url('bg.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+.outer{
+	margin: 5%;
+}
+.title_line{
+	color:#fff;
+	font-size:25px;
+	font-size: 35px;
+    font-family: cursive;
+}
+.add_product,.add_product:hover,.list_product,.list_product:hover{
+	border: 1px solid #ccc;
+    font-size: 23px;
+    padding: 5px 10px;
+    border-radius: 5px;
+	color:#fff;
+	text-decoration:none;
+}
+.banner_image{
+	background-image:url('banner1.png');
+	background-size: cover;
+    background-repeat: no-repeat;
+	height:500px;
+}
+.add_form form{
+	width: 72%;
+    margin: 20px auto;
+}
+.add_form .form_tag{
+	width: 100%;
+    display: inline-flex;
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+	margin:15px 0;
+}
+form label{
+	padding:0 10px;
+}
+form input,form select{
+	height: 25px;
+    padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+form select{
+	height: 32px;
+}
+.buttons{
+	padding: 10px;
+    width: 100%;
+}
+.alert{
+	width:100%;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.table{
+	width: 75%;
+    margin: 20px auto;
+    text-align: center;
+}
+.apply,.invoice{
+	background-color: #000;
+    color: #fff;
+    margin: 0 5px;
+}
+.logo{
+	position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 30px;
+    color: #fff;
+    font-family: cursive;
+}
+.logo a{
+	color:#fff;
+	text-decoration:none;
+}
+@media print {
+  .invoice {
+    display: none;
+  }
+}
